@@ -1,0 +1,84 @@
+name: aggregate
+prototype:
+  - fieldName: aggregate
+    value: {
+      text: "<collection>",
+      type: "string"
+    }
+    description: >
+      The name of the collection or view that acts as the input for the
+      aggregation pipeline. Caleb is ok.
+  - fieldName: pipeline
+    value: {
+      text: "[<stage>, ...]",
+      type: "array",
+      numArgs: "n"
+    }
+    description: >
+      An array of aggregation pipeline stages that process and transform
+      the document stream as part of the aggregation pipeline.
+  - fieldName: explain
+    value: {
+      text: "<boolean>",
+      type: "boolean",
+      optional: true
+    }
+    description: >
+      Specifies to return the information on the processing of the
+      pipeline.
+  - fieldName: allowDiskUse
+    value: {
+      text: "<boolean>",
+      type: "boolean",
+      optional: true
+    }
+    description: >
+      Enables writing to temporary files. When set to true,
+      aggregation stages can write data to the _tmp subdirectory in the
+      dbPath directory.
+
+  - fieldName: cursor
+    value: {
+      text: "<document>",
+      type: "document",
+      optional: true
+    }
+    description: >
+      Specify a document that contains options that control the creation
+      of the cursor object.
+  - fieldName: maxTimeMS
+    value: {
+      text: "<int>",
+      type: "non-negative integer",
+      optional: true
+    }
+    description: >
+      Specifies a time limit in milliseconds for processing operations
+      on a cursor. If you do not specify a value for maxTimeMS,
+      operations will not time out. A value of 0 explicitly specifies
+      the default unbounded behavior.
+      
+      MongoDB terminates operations that exceed their allotted time
+      limit using the same mechanism as db.killOp(). MongoDB only
+      terminates an operation at one of its designated interrupt points.
+  - fieldName: bypassDocumentValidation
+    value: {
+      text: "<boolean>",
+      type: "boolean",
+      optional: true
+    }
+    description: >
+      Available only if you specify the $out aggregation operator.
+
+      Enables aggregate to bypass document validation during the
+      operation. This lets you insert documents that do not meet the
+      validation requirements.
+  - fieldName: comment
+    value: {
+      text: "<string>",
+      type: "string",
+      optional: true
+    }
+    description: >
+      Users can specify an arbitrary string to help trace the operation
+      through the database profiler, currentOp, and logs.

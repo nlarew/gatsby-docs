@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "MongoDB Docs with Gatsby",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "emotion": "^8.0.9",
+    "emotion-server": "^8.0.9",
+    "gatsby": "^1.9.73",
+    "gatsby-link": "^1.6.24",
+    "gatsby-plugin-emotion": "^1.1.8",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-react-next": "^1.0.4",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-remark-code-repls": "^1.0.8",
+    "gatsby-remark-prismjs": "^1.2.12",
+    "gatsby-source-filesystem": "^1.5.7",
+    "gatsby-transformer-remark": "^1.7.24",
+    "gatsby-transformer-yaml": "^1.5.14",
+    "mongodb-stitch": "^2.3.1",
+    "react-codepen": "^0.1.0",
+    "react-emotion": "^8.0.9",
+    "react-iframe": "^1.1.0",
+    "react-promise": "^2.0.1",
+    "react-syntax-highlighter": "^6.1.2",
+    "react-typography": "^0.16.13",
+    "react-uikit-codeblock": "^2.0.2",
+    "typography": "^0.16.6",
+    "typography-theme-alton": "^0.15.10",
+    "typography-theme-funston": "^0.15.10",
+    "typography-theme-us-web-design-standards": "^0.16.9"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-emotion": "^8.0.9",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "1.10.2"
+  }
+}
