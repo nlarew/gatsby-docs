@@ -1,9 +1,11 @@
+const path = require('path');
+
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {
     // const dbcommandTemplate = path.resolve(`src/template/dbcommand.js`);
-    const dbcommandTemplate = `./src/template/dbcommand.js`;
-    const siamTemplate = `./src/template/siam.js`;
+    const dbcommandTemplate = path.resolve(`src/template/dbcommand.js`);
+    const siamTemplate = path.resolve(`src/template/siam.js`);
     resolve(graphql(`
         {
           allDbcommandsYaml {

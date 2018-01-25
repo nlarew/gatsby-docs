@@ -1,6 +1,6 @@
 import React from 'react';
 // import Codepen from "react-codepen";
-import Iframe from 'react-Iframe';
+import Iframe from 'react-iframe';
 import styled, { css } from 'react-emotion'
 
 
