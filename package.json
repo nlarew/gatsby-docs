@@ -28,6 +28,7 @@
     "react-uikit-codeblock": "^2.0.2",
     "typography": "^0.16.6",
     "typography-theme-alton": "^0.15.10",
+    "typography-theme-fairy-gates": "^0.15.11",
     "typography-theme-funston": "^0.15.10",
     "typography-theme-us-web-design-standards": "^0.16.9"
   },

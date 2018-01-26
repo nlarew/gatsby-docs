@@ -14,7 +14,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              // Class prefix for <pre> tags containing syntax highlighting;
+              // Class prefix for <pre> tags co ntaining syntax highlighting;
               // defaults to 'language-' (eg <pre class="language-js">).
               // If your site loads Prism into the browser at runtime,
               // (eg for use with libraries like react-live),
