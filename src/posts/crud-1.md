@@ -5,7 +5,7 @@ codepen:
   user: nlarew
   hash: mpZgqV
 ---
-# Stitch in a Minute: Reading Data from Atlas
+# Stitch in a Minute: Using Rules and Functions to Secure Data
 
 Get started with MongoDB Stitch by reading some sample Employee data that we've
 loaded into a MongoDB Atlas database.

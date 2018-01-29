@@ -10,8 +10,8 @@ import styled, { css } from 'react-emotion'
 
 const Codepen = props => (
   <Iframe
-    height="600"
-    width="1000"
+    height="660"
+    width="1100"
     scrolling="no"
     title={props.title}
     url={`//codepen.io/${props.user}/embed/${props.hash}/?height=600&theme-id=dark&default-tab=js,result&embed-version=2`}
